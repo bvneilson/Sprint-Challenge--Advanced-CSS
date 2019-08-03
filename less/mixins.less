@@ -1,1 +1,24 @@
 // Mixins Here
+#flex-container() {
+  display: flex;
+}
+
+#link() {
+  text-decoration: none;
+  color: inherit;
+}
+
+#button(@background,@fontSize) {
+  padding: 7px 15px;
+  color: white;
+  background-color: @background;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: @fontSize;
+  transition: .3s;
+
+  &:hover {
+    background-color: #f4f4f4;
+    color: @background;
+  }
+}
