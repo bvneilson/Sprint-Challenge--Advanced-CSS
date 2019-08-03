@@ -169,6 +169,10 @@ nav {
   justify-content: center;
   padding: 15px 0;
   background-color: #f4f4f4;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.9;
 }
 nav h1 {
   width: 100%;
@@ -189,6 +193,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  padding-top: 102px;
 }
 .home .intro img {
   border-radius: 5px;
