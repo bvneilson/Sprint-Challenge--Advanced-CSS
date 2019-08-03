@@ -263,6 +263,7 @@ footer {
   text-decoration: none;
   font-size: 1.8rem;
   transition: 0.3s;
+  cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
   background-color: #f4f4f4;
@@ -295,4 +296,56 @@ footer {
     width: 100%;
     margin: 0;
   }
+}
+html,
+body,
+.container {
+  height: 100%;
+}
+.contact {
+  padding-top: 102px;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-content {
+  flex: 1 0 auto;
+}
+.contact .contact-content .form {
+  width: 80%;
+  padding: 20px 10%;
+  font-size: 1.8rem;
+}
+.contact .contact-content .form input[type=text],
+.contact .contact-content .form select,
+.contact .contact-content .form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact .contact-content .form input[type=submit] {
+  width: 33%;
+  padding: 7px 0;
+  text-align: center;
+  color: white;
+  background-color: #22283A;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.contact .contact-content .form input[type=submit]:hover {
+  background-color: #f4f4f4;
+  color: #22283A;
+}
+.contact .contact-content .thank-you {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
