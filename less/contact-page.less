@@ -1,0 +1,40 @@
+html, body, .container {
+  height: 100%;
+}
+.contact {
+  padding-top: 102px;
+  #flex-container;
+  flex-direction: column;
+
+  .contact-content {
+    flex: 1 0 auto;
+
+    .form {
+      width: 80%;
+      padding: 20px 10%;
+      font-size: 1.8rem;
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+      }
+
+      input[type=submit] {
+        #button(@btn-bg-color,1.8rem);
+      }
+    }
+
+    .thank-you {
+      height: 20%;
+      #flex-container;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
